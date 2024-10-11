@@ -1,4 +1,4 @@
-package com.nanosecond.makeup.android.graphic
+package com.github.xingray.kotlinandroidbase.ext
 
 import android.graphics.Point
 import android.graphics.PointF

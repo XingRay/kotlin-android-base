@@ -37,10 +37,13 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
+    implementation(libs.androidx.exifinterface)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(libs.xingray.kotlin.base)
 }
 
 publishing {
@@ -48,7 +51,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.xingray"
             artifactId = "kotlin-android-base"
-            version = "0.0.2"
+            version = "0.0.3"
 
             afterEvaluate{
                 from(components["release"])

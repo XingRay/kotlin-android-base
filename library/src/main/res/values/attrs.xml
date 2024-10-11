@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="TransformLayout">
+        <attr name="iconExpand" format="reference" />
+        <attr name="iconTranslate" format="reference" />
+        <attr name="iconRotate" format="reference" />
+        <attr name="iconEyeOpen" format="reference" />
+        <attr name="iconEyeClose" format="reference" />
+    </declare-styleable>
+</resources>
